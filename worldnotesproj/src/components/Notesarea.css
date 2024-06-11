@@ -1,0 +1,188 @@
+.abc{
+    height:80px;
+    width:200px;
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+    border:solid 2px rgb(247, 226, 226);
+    border-bottom: none;
+    margin-left: 20%;
+}
+.abcleftbottom:hover{
+    background-color: rgb(247, 226, 226);
+    border-color:rgb(247, 226, 226);
+    box-shadow:  none;
+}
+.abcrightbottom:hover{
+    background-color: rgb(247, 226, 226);
+    border-color:rgb(247, 226, 226);
+    box-shadow:  none;
+}
+.headingvisiout{
+    text-align: center;
+    padding-top:5px;
+}
+.abcleftbottom{
+    height:50px;
+    width:100px;
+    border-bottom-left-radius:30px;
+    border:solid 2px rgb(247, 226, 226);
+    border-right:solid 1px rgb(247, 226, 226);
+    margin-left:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+.abcrightbottom{
+    height:50px;
+    width:100px;
+    border-bottom-right-radius:30px;
+    border-left:solid 1px rgb(247, 226, 226);
+    border:solid 2px rgb(247, 226, 226);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottomcss{
+    display: flex;
+}
+#button-addon2{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border:solid 2px rgb(247, 226, 226);
+    color: black;   
+}
+#button-addon2:hover{
+    background-color: red;
+    border-color:red;
+    color:white;
+}
+#inpform{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border:solid 2px rgb(247, 226, 226);
+    border-radius: 20px;
+}
+#searcharea{
+    padding:50px;
+    padding-left: 400px;
+    padding-right:400px;
+}
+@media (max-width:1150px) and (min-width:720px) {
+    #searcharea{
+    padding-left: 200px;
+    padding-right: 200px;
+    }
+}
+@media (max-width:719px) and (min-width:510px){
+    #searcharea{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+@media (max-width:509px){
+    #searcharea{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+.newnotesadd{
+    position: relative;
+    height:40px;
+    width:40px;
+    background-color: red;
+    border-radius:25px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 1px 1px 7px black;
+    margin-left: auto;
+    right:10px;
+    bottom:10px;
+}
+.notesBoxstyle{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:900px;
+    height:500px;
+    background-color: white;
+    border-radius: 50px;
+}
+#exampleInputEmail1{
+  height:100px;
+  width:900px;
+  padding-left:5%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-color: #dee2e6;
+  border-top-color: white;
+  border-left-color: white ;
+  border-right-color: white ;
+  font-size: 20px;
+  font-weight: bold;
+}
+#exampleInputEmail1:focus{
+    box-shadow: none;
+    border-color: #dee2e6;
+}
+#savenotesthbox{
+    height:50px;
+    width:450px;
+    border-bottom-left-radius: 50px;
+    background-color: rgb(247, 226, 226);
+    color:black;
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+    border-bottom-right-radius: 0;
+    border-color: rgb(247, 226, 226);
+    font-size: large;
+}
+#closemodalbox{
+    height:50px;
+    width:450px;
+    border-bottom-left-radius: 0;
+    background-color: white;
+    color:black;
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+    border-bottom-right-radius: 50px;
+    border: 3px solid rgb(247, 226, 226);
+    font-size: large;  
+}
+.buttonsinmodalbox{
+    display:flex;
+}
+.notescontent{
+    height:350px;
+    width:900px;
+    outline:none;
+    border-color: white;
+    border-style: none;
+    padding:10px;
+}
+.newnote{
+    display:flex;
+    flex-wrap:wrap;
+    height:500px;
+    overflow: auto;
+}
+.notecontentfrontdisp{
+    white-space: nowrap;
+    padding: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+::-webkit-scrollbar{
+    width:5px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+  }

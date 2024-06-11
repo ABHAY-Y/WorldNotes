@@ -1,0 +1,10 @@
+.worldnotefootername{
+    position:relative;
+}
+.footersection{
+    height:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 226, 226);
+}
